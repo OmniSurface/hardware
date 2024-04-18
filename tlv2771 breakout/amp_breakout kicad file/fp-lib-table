@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "breakout_footprint")(type "KiCad")(uri "/Users/pengyuecheng/Documents/UW/TECHIN 515/final/pcb/breakout_footprint.pretty")(options "")(descr ""))
+)
