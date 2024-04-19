@@ -37,6 +37,8 @@ Where,
 
 In our case, the gain is 50, then the bandwidth is around 100kHz, which could be sufficient in our case of interacting with surfaces.
 
+If a higher GBW turns out to be necessary, we can use LMP7732, which has a GBW of __22MHz__.
+
 ### ADC sampling
 The AD4022 chip we used for ADC has a maximum sampling rate of around 500kSPS. 
 
