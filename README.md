@@ -6,6 +6,8 @@ This repo stores hardware design files and datasheets of components we used.
 - `kicad components`: stores schematic files and footprints of components
 - `tlv2771 breakout`: an easy breakout board for the breadboard testing of the TLV2771 Operational Amplifier chip.
 - `piezo_v1`: version 1 of the integrated circuit, including a piezo sensor, preamplification of the sensor reading, and a high sampling rate ADC circuit, which communicates with the MCU (ESP32S3) using the SPI interface.
+- `mini_v1`: deleted ADC subcircuit and uses a dual channel amplifier (TLV2722) to amplify readings from both the piezo and bone conducting mic sensor. Uses CR2477 coin cell battery to power the ESP32S3 XIAO.
+- `mini_lipo_v1`: same as the `mini_v1`, other than it uses a 30.0mm x 25.5mm x 7.1mm 500mAh lipo battery to power the ESP32S3 XIAO.
 - `backup_microphone`: this file includes the testing for the backup plan, which is using microphone as the second sensor if piezo or bone conduction cannot work as expected.
 
 ## Circuit Diagrams
