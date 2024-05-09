@@ -6,6 +6,7 @@ This repo stores hardware design files and datasheets of components we used.
 - `kicad components`: stores schematic files and footprints of components
 - `tlv2771 breakout`: an easy breakout board for the breadboard testing of the TLV2771 Operational Amplifier chip.
 - `piezo_v1`: version 1 of the integrated circuit, including a piezo sensor, preamplification of the sensor reading, and a high sampling rate ADC circuit, which communicates with the MCU (ESP32S3) using the SPI interface.
+- `backup_microphone`: this file includes the testing for the backup plan, which is using microphone as the second sensor if piezo or bone conduction cannot work as expected.
 
 ## Circuit Diagrams
 ### Preamplifier 
